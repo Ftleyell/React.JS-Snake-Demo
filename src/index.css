@@ -1,0 +1,44 @@
+body  {
+  overflow: hidden
+}
+#root {
+  background-image: url("Imgs/BackgroundPage.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.game-area {
+  position: relative;
+  margin: 0px auto;
+  width: 600px;
+  height: 600px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #077826;
+  background-color: #D0E4F5;
+  background-image: url("Imgs/Background1.png");
+  background-repeat: repeat;
+  background-attachment: local;
+  background-position: 0 0;
+}
+.block {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  border: 1px solid #000000;
+}
+.snake {
+  background-image: url("Imgs/Snake1.png");
+  background-repeat: repeat;
+  background-attachment: local;
+  background-position: 0 0;
+  z-index: 2;
+}
+.food {
+  background-image: url("Imgs/Fruit1.png");
+  background-repeat: repeat;
+  background-attachment: local;
+  background-position: 0 0;
+  z-index: 1;
+}
